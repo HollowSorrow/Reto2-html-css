@@ -1,0 +1,99 @@
+
+body {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado {
+    background-color: #1a3c5e;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+#encabezado h1 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+}
+
+#encabezado p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #aac4e0;
+}
+
+.seccion {
+    background-color: #ffffff;
+    width: 75%;
+    margin: 25px auto;
+    padding: 25px 30px;
+    border-radius: 6px;
+}
+
+.seccion h2 {
+    color: #1a3c5e;
+    border-bottom: 2px solid #1a3c5e;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.resaltado {
+    color: #c85a00;
+    font-weight: bold;
+}
+
+#razones ul {
+    padding-left: 20px;
+}
+
+#razones li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1a3c5e;
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f9fc;
+}
+
+#imagen-seccion {
+    text-align: center;
+}
+
+.imagen-trabajo {
+    width: 500px;
+    height: 300px;
+    margin: 10px 0;
+    border: 3px solid #1a3c5e;
+    border-radius: 6px;
+}
+
+#pie {
+    background-color: #1a3c5e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.85em;
+}
